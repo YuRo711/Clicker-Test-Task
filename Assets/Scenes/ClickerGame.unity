@@ -662,6 +662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Silver
       objectReference: {fileID: 0}
+    - target: {fileID: 6373004768413163069, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
+      propertyPath: m_Name
+      value: Silver Button
+      objectReference: {fileID: 0}
     - target: {fileID: 6823740578319093969, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1120,6 +1124,10 @@ PrefabInstance:
     - target: {fileID: 6373004768413163069, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_Name
       value: Gold Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823740578319093969, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7597178683757678420, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_text
