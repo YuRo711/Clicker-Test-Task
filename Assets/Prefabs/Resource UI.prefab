@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1750827898921004416}
   - component: {fileID: 8063250927472143589}
   - component: {fileID: 1972728015134936300}
+  - component: {fileID: 4180271567987402226}
   m_Layer: 5
   m_Name: Value
   m_TagString: Untagged
@@ -134,6 +135,21 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4180271567987402226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917115902427466071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8907547b0fad4f528ecfbb807455c43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: {fileID: 11400000, guid: c8c75ec934aa7fa74bc4a685a3124bec, type: 2}
+  resourceType: 
+  textField: {fileID: 1972728015134936300}
 --- !u!1 &3359534499188018569
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,6 +468,7 @@ GameObject:
   - component: {fileID: 6293262864599811866}
   - component: {fileID: 6823740578319093969}
   - component: {fileID: 2078729396628909065}
+  - component: {fileID: 713829239656624367}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -560,4 +577,30 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6823740578319093969}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 713829239656624367}
+        m_TargetAssemblyTypeName: ResourceButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &713829239656624367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6373004768413163069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715ecf53617148d0bf000ecdf65b9acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: {fileID: 11400000, guid: c8c75ec934aa7fa74bc4a685a3124bec, type: 2}
+  resourceType: 

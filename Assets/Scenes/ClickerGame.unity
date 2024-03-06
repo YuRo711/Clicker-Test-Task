@@ -578,6 +578,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Silver!
       objectReference: {fileID: 0}
+    - target: {fileID: 713829239656624367, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
+      propertyPath: resourceType
+      value: silver
+      objectReference: {fileID: 0}
     - target: {fileID: 4016739254354189735, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -657,6 +661,10 @@ PrefabInstance:
     - target: {fileID: 4016739254354189735, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180271567987402226, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
+      propertyPath: resourceType
+      value: silver
       objectReference: {fileID: 0}
     - target: {fileID: 4702293543549025711, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_Name
@@ -763,6 +771,7 @@ GameObject:
   - component: {fileID: 1314128601}
   - component: {fileID: 1314128603}
   - component: {fileID: 1314128602}
+  - component: {fileID: 1314128604}
   m_Layer: 5
   m_Name: Value
   m_TagString: Untagged
@@ -886,6 +895,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1314128600}
   m_CullTransparentMesh: 1
+--- !u!114 &1314128604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314128600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6ca4ab2ce14302b01053bbca1d2adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameState: {fileID: 11400000, guid: c8c75ec934aa7fa74bc4a685a3124bec, type: 2}
+  textField: {fileID: 1314128602}
 --- !u!1 &1555345306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,6 +1060,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Gold!
       objectReference: {fileID: 0}
+    - target: {fileID: 713829239656624367, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
+      propertyPath: resourceType
+      value: gold
+      objectReference: {fileID: 0}
     - target: {fileID: 4016739254354189735, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1116,6 +1143,10 @@ PrefabInstance:
     - target: {fileID: 4016739254354189735, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180271567987402226, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
+      propertyPath: resourceType
+      value: gold
       objectReference: {fileID: 0}
     - target: {fileID: 4702293543549025711, guid: e1fffe91a3b45bb75a29b6a449729e73, type: 3}
       propertyPath: m_Name
